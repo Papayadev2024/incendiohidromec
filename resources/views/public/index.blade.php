@@ -39,6 +39,11 @@
             background-image: url("./images/img/fondobombas2.png");
             object-fit: contain;
         }
+
+        .modal-open {
+            overflow: hidden;
+            background-color: rgba(0, 0, 0, 1);
+        }
     </style>
 
 @stop
