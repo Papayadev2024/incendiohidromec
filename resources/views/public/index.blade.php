@@ -128,7 +128,7 @@
 
                                             <div class="flex justify-center items-center py-5">
                                                 <button type="submit"
-                                                    class="text-text18 font-helveticaBold text-white bg-[#007FC8] py-4 px-6 w-full text-center rounded-lg">Quiero
+                                                    class="text-text18 font-helveticaBold text-white bg-[#222a51] py-4 px-6 w-full text-center rounded-lg">Quiero
                                                     una cotización</button>
                                             </div>
                                             <div class="flex flex-col gap-1">
