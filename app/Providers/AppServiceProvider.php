@@ -6,6 +6,7 @@ use App\Models\General;
 use Illuminate\Support\ServiceProvider;
 use App\Models\Message;
 use App\Models\NewsletterSubscriber;
+use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\View;
 
 class AppServiceProvider extends ServiceProvider
@@ -23,7 +24,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        Schema::defaultStringLength(191);
+        
         View::composer('components.app.sidebar', function ($view) {
             // Obtener los datos del footer
             $mensajes = Message::where('is_read', '!=', 1 )->where('status', '!=', 0)->count();

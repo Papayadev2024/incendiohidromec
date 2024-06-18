@@ -1,5 +1,5 @@
 <header>
-    <div class="bg-[#007FC8] py-5">
+    <div class="bg-[#232B52] py-5">
       <div class="w-11/12 mx-auto flex justify-between items-center">
         <div class="flex justify-between items-center gap-10">
           <div class="hidden md:flex justify-center items-center gap-2">
@@ -34,14 +34,14 @@
       class="flex flex-col md:flex-row justify-between items-center w-11/12 mx-auto py-5 gap-5"
     >
       <div class="flex justify-center items-center">
-        <a href="#">
+        <a href="{{route('index')}}">
           <img src="{{asset('images/svg/image_7.svg')}}" alt="Hidromec" class="w-full" />
         </a>
       </div>
       <div class="hidden md:flex justify-center items-center w-full md:w-auto">
         <a
          target="_blank" href="https://api.whatsapp.com/send?phone=51123456789&text=hola" rel="noopener"
-          class="bg-[#232B52] text-white text-text16 rounded-xl py-3 px-5 w-full md:w-auto text-center font-helveticaBold"
+          class="bg-[#007FC8] text-white text-text16 rounded-xl py-3 px-5 w-full md:w-auto text-center font-helveticaBold"
           >Quiero una cotización</a
         >
       </div>
