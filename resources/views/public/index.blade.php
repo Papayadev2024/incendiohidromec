@@ -180,8 +180,8 @@
                     </div>
                 </div>
 
-                <div class="order-3 col-span-1 md:order-3 md:col-span-1 md:row-span-1">
-                    <img src="{{asset('images/img/image_33.png')}}" alt="sistema de incendio" class="w-[728px] h-[728px]" />
+                <div class="order-3 col-span-1 md:order-3 md:col-span-1 md:row-span-1 -ml-20">
+                    <img src="{{asset('images/img/image_iz.png')}}" alt="sistema de incendio" class="w-[728px] h-[728px]" />
                 </div>
 
                 <div class="order-2 md:order-2 col-span-1 md:col-span-1 md:row-span-2 flex flex-col gap-5">
