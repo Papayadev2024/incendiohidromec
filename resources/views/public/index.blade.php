@@ -188,11 +188,11 @@
                     <div class="flex flex-col gap-4 group bg-[#F9FAFB] p-6 rounded-xl">
                         <div class="flex flex-col gap-4">
                             <p class="text-[#007FC8] font-helveticaBold text-text40 leading-none">
-                                Cuarto de maquina
+                                Cuarto de máquina
                             </p>
                             <div class="flex flex-col gap-2">
                                 <p class="text-[#808080] font-helveticaLight text-text16 md:text-text18">
-                                    Bombas activadas por motor electrico y/o diesel desde 35 a 5000 GPM.
+                                    Bombas activadas por motor eléctrico y/o diesel desde 35 a 5000 GPM.
                                 </p>
                             </div>
                         </div>
@@ -386,7 +386,7 @@
                                 Precio Competitivo
                             </h2>
                             <p class="text-white font-helveticaLight text-text16 text-center">
-                                Al ser representantes exclusivos de marcas lideres a nivel mundial. garantizamos un producto
+                                Al ser representantes exclusivos de marcas lideres a nivel mundial, garantizamos un producto
                                 de calidad a un precio competitivo que asegurará la rentabilidad de su instalación o
                                 proyecto.
                             </p>
