@@ -39,7 +39,7 @@
         </a>
       </div>
       <div class="hidden md:flex justify-center items-center w-full md:w-auto">
-        <a
+        <a  id="botoncotizar"
          target="_blank" href="https://api.whatsapp.com/send?phone=51946260675&text=¡Hola%20Hidromec!%20Quisiera%20recibir%20más%20detalles%20sobre%20sus%20productos%20y%20servicios%20especializados%20en%20Sistema%20Contra%20Incendios." rel="noopener"
           class="bg-[#007FC8] text-white text-text16 rounded-xl py-3 px-5 w-full md:w-auto text-center font-helveticaBold"
           >Quiero una cotización</a
