@@ -18,11 +18,7 @@
     <link rel="icon" href="{{ asset('logohidromec.svg') }}" type="image/x-icon">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
 
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-KZWD9M9F');</script>
+
 
     </script>
 
@@ -39,9 +35,19 @@
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KSHZTKXT');</script>
+
 </head>
 
 <body id="inicio">
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSHZTKXT"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
     @include('components.public.header')
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KZWD9M9F"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
