@@ -17,8 +17,9 @@
     {{-- <link rel="icon" href="{{asset('images/svg/Logo_redondo_2.svg')}}" type="image/svg+xml"> --}}
     <link rel="icon" href="{{ asset('logohidromec.svg') }}" type="image/x-icon">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
-
-
+    
+    <link rel="preconnect" href="https://incendios.hidromecproductos.com">
+    <link rel="preload" as="image" href="https://incendios.hidromecproductos.com/images/img/image_17.webp">
 
     </script>
 
