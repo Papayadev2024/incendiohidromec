@@ -53,10 +53,10 @@
     <main class="bg-white">
         <section class="relative">
             <img src="{{asset('images/img/image_17.webp')}}" alt="hidromec incendios"
-                class="w-full h-[800px] object-cover hidden md:block" />
+                class="w-full h-[800px] object-cover hidden md:block" loading="lazy"/>
 
             <img src="{{asset('images/img/image_17.webp')}}" alt="hidromec incendios"
-                class="w-full h-[1000px] object-cover block md:hidden" />
+                class="w-full h-[1000px] object-cover block md:hidden" loading="lazy"/>
 
             <div
                 class="absolute transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 w-11/12 mx-auto pt-[350px] sm:pt-[250px] md:pt-[500px] lg:pt-0">
