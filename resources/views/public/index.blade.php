@@ -36,7 +36,7 @@
         }
 
         .fondobombas {
-            background-image: url("./images/img/fondobombas2.png");
+            background-image: url("./images/img/fondobombas2.webp");
             object-fit: contain;
         }
 
@@ -52,10 +52,10 @@
 
     <main class="bg-white">
         <section class="relative">
-            <img src="{{asset('images/img/image_17.png')}}" alt="hidromec incendios"
+            <img src="{{asset('images/img/image_17.webp')}}" alt="hidromec incendios"
                 class="w-full h-[800px] object-cover hidden md:block" />
 
-            <img src="{{asset('images/img/image_17.png')}}" alt="hidromec incendios"
+            <img src="{{asset('images/img/image_17.webp')}}" alt="hidromec incendios"
                 class="w-full h-[1000px] object-cover block md:hidden" />
 
             <div
@@ -180,7 +180,7 @@
                 </div>
 
                 <div class="order-3 col-span-1 md:order-3 md:col-span-1 md:row-span-1 -ml-20">
-                    <img src="{{asset('images/img/image_iz.png')}}" alt="sistema de incendio" class="lg:w-[728px] w-[600px] h-auto lg:h-[728px]" />
+                    <img src="{{asset('images/img/image_iz.webp')}}" alt="sistema de incendio" class="lg:w-[728px] w-[600px] h-auto lg:h-[728px]" />
                 </div>
 
                 <div class="order-2 md:order-2 col-span-1 md:col-span-1 md:row-span-2 flex flex-col gap-5">
@@ -266,7 +266,7 @@
                     </div>
 
                     <div class="order-3 col-span-1 md:order-3 md:col-span-1 md:row-span-1">
-                        <img src="{{asset('images/img/maquina2.png')}}" alt="sistema de incendio" class="w-full" />
+                        <img src="{{asset('images/img/maquina2.webp')}}" alt="sistema de incendio" class="w-full" />
                     </div>
                 </div>
             </div>
@@ -293,35 +293,35 @@
                 <div
                     class="grid grid-cols-2 gap-10 md:flex md:flex-row md:flex-wrap md:gap-5 xl:gap-10 justify-center xl:justify-between w-full md:max-w-[768px]">
                     <div class="flex justify-center items-center">
-                        <img src="{{asset('images/img/image_18.png')}}" alt="pentax" />
+                        <img src="{{asset('images/img/image_18.webp')}}" alt="pentax" />
                     </div>
                     <div class="flex justify-center items-center">
-                        <img src="{{asset('images/img/image_19.png')}}" alt="General Pumps" />
+                        <img src="{{asset('images/img/image_19.webp')}}" alt="General Pumps" />
                     </div>
                     <div class="flex justify-center items-center">
-                        <img src="{{asset('images/img/image_20.png')}}" alt="ISO" />
+                        <img src="{{asset('images/img/image_20.webp')}}" alt="ISO" />
                     </div>
                     <div class="flex justify-center items-center">
-                        <img src="{{asset('images/img/image_21.png')}}" alt="ISO" />
+                        <img src="{{asset('images/img/image_21.webp')}}" alt="ISO" />
                     </div>
                     <div class="flex justify-center items-center">
-                        <img src="{{asset('images/img/image_22.png')}}" alt="NFPA" />
-                    </div>
-
-                    <div class="flex justify-center items-center">
-                        <img src="{{asset('images/img/image_23.png')}}" alt="APROVED" />
+                        <img src="{{asset('images/img/image_22.webp')}}" alt="NFPA" />
                     </div>
 
                     <div class="flex justify-center items-center">
-                        <img src="{{asset('images/img/image_24.png')}}" alt="UL" />
+                        <img src="{{asset('images/img/image_23.webp')}}" alt="APROVED" />
                     </div>
 
                     <div class="flex justify-center items-center">
-                        <img src="{{asset('images/img/aquamec.png')}}" alt="UL" />
+                        <img src="{{asset('images/img/image_24.webp')}}" alt="UL" />
                     </div>
 
                     <div class="flex justify-center items-center">
-                        <img src="{{asset('images/img/ameriflo.png')}}" alt="UL" />
+                        <img src="{{asset('images/img/aquamec.webp')}}" alt="UL" />
+                    </div>
+
+                    <div class="flex justify-center items-center">
+                        <img src="{{asset('images/img/ameriflo.webp')}}" alt="UL" />
                     </div>
                 </div>
             </div>
@@ -353,10 +353,10 @@
         <section class="bg-[#222A51]">
             <div class="grid grid-cols-1 lg:grid-cols-2">
                 <div class="flex justify-center items-center">
-                    <img src="{{asset('images/img/imagenincendio.png')}}" alt=""
+                    <img src="{{asset('images/img/imagenincendio.webp')}}" alt=""
                         class="w-full h-[800px] object-cover hidden md:block" />
 
-                    <img src="{{asset('images/img/imagenincendio.png')}}" alt=""
+                    <img src="{{asset('images/img/imagenincendio.webp')}}" alt=""
                         class="w-full h-[800px] object-cover block md:hidden" />
                 </div>
 
@@ -437,18 +437,18 @@
 
                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 md:gap-10">
                     <div class="flex justify-center items-center">
-                        <img src="{{asset('images/img/planpeso.png')}}" alt="planpeso" />
+                        <img src="{{asset('images/img/planpeso.webp')}}" alt="planpeso" />
                     </div>
                     <div class="flex justify-center items-center">
-                        <img src="{{asset('images/img/bcr.png')}}" alt="bcr" />
+                        <img src="{{asset('images/img/bcr.webp')}}" alt="bcr" />
                     </div>
                     <div class="flex justify-center items-center">
-                        <img src="{{asset('images/img/motaengil.png')}}" alt="motaengil" />
+                        <img src="{{asset('images/img/motaengil.webp')}}" alt="motaengil" />
                     </div>
                     <div
                         class="flex flex-col md:flex-row justify-around items-center col-span-1 md:col-span-3 mt-1 lg:mt-10 gap-10 lg:gap-5">
-                        <img src="{{asset('images/img/donricardo.png')}}" alt="donricardo" />
-                        <img src="{{asset('images/img/gdc.png')}}" alt="gdc" />
+                        <img src="{{asset('images/img/donricardo.webp')}}" alt="donricardo" />
+                        <img src="{{asset('images/img/gdc.webp')}}" alt="gdc" />
                     </div>
 
                 </div>
