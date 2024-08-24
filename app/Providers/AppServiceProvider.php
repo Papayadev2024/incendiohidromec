@@ -28,10 +28,11 @@ class AppServiceProvider extends ServiceProvider
         
         View::composer('components.app.sidebar', function ($view) {
             // Obtener los datos del footer
-            $mensajes = Message::where('is_read', '!=', 1 )->where('status', '!=', 0)->count();
-            
+            $mensajes = Message::where('is_read', '!=', 1 )->where('status', '!=', 0)->where('source', '=', 'incendio')->count();
+            $suscriptores = NewsletterSubscriber::where('phone','=','incendio')->where('active', '=', 1 )->count();  
             // Pasar los datos a la vista
-            $view->with('mensajes', $mensajes);
+            $view->with('mensajes', $mensajes)
+                 ->with('suscriptores', $suscriptores);
                 
         });
 
